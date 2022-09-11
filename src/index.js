@@ -1,2 +1,2 @@
-const answer = 42;
-export default answer;
+export {default as _isPalindrome} from './_isPalindrome.js';
+export {default as isPalindrome} from './isPalindrome.js';
