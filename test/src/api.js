@@ -1,6 +1,6 @@
 import test from 'ava';
 
-import {isPalindrome} from '../../src/index.js';
+import {isPalindrome} from '#module';
 
 const macro = (t, s, expected) => {
 	t.is(expected, isPalindrome(s));
